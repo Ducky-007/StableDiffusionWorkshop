@@ -30,9 +30,8 @@ if __name__ == '__main__':
     text_to_image = Leo()
     text_to_image(
         name="megalodon",
-        prompt="Photograph of megalodon, a 60 foot long shark with a dark top, "
-               "light under belly with rows of razor sharp teeth.",
+        prompt="Comic book of an hourglass floating in the sky over leprechauns dancing together",
         neg_prompt="",
         count=3,
-        epochs=10,
+        epochs=50,
     )
